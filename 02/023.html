@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio</title>
+</head>
+<body>
+
+    <script>
+        alert("analisando viagem");
+
+        var saldo = +prompt("digite oo saldo atual aqui: ");
+
+        if (saldo >= 10000){
+            document.write("voce possui em saldo R$" +saldo+ "<br>");
+            document.write("parabens!");
+        } else{
+            if (saldo >= 3000 && saldo < 10000){
+                document.write("voce possui em saldo R$" +saldo+ "<br>");
+                document.write("faça uma viagem pequena");
+            }
+            else{
+                document.write("voce possui em saldo R$" +saldo+ "<br>");
+                document.write("espere e junte mais");
+            }
+        }
+    </script>
+
+</body>
+</html>
